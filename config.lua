@@ -24,7 +24,7 @@ Config = {
     ------------
     DiscordName = "Space-Dev",
     DiscordLogo = "https://resize-europe1.lanmedia.fr/r/622,311,forcex,center-middle/img/var/europe1/storage/images/europe1/international/le-panda-geant-nest-plus-en-danger-mais-reste-menace-2837755/28733065-1-fre-FR/Le-panda-geant-n-est-plus-en-danger-mais-reste-menace.jpg", -- He must finish by .png or .jpg,
-    DiscordWebHook = "https://discord.com/api/webhooks/946931471631913042/hpiNZ-gnfSp_RPEoL0HJuvGsy6xA9BhRMyVyEq0Jw4mejLOYujJn1Em4VVT96Ftov15T",
+    DiscordWebHook = "",
     ------------
     ---- perm menu categories
     ---- User your admin ranks line 16
