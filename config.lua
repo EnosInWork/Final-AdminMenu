@@ -28,7 +28,7 @@ Config = {
     ------------
     ---- perm menu categories
     ---- User your admin ranks line 16
-    Gestionsoi = {"owner", "superadmin"},
+    Gestionsoi = {"helper","mod","admin","superadmin","owner","_dev"},
     Vehicules = {"helper","mod","admin","superadmin","owner","_dev"},
     joueurs = {"helper","mod","admin","superadmin","owner","_dev"},
     reports = {"helper","mod","admin","superadmin","owner","_dev"},
