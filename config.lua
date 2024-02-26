@@ -2,7 +2,7 @@ Config = {}
 
 Config = {
     ------------
-    ESXTrigger = "esx:getSharedObject",
+    ESXTrigger =  exports["es_extended"]:getSharedObject(),
     ------------
     ColorMenuR = 255, -- Bannière couleur R
     ColorMenuG = 11, -- Bannière couleur G

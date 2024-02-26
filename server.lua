@@ -1,4 +1,4 @@
-ESX = nil
+ESX = exports["es_extended"]:getSharedObject()
 local allReport = {}
 local items = {}
 
