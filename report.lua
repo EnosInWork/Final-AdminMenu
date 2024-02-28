@@ -1,13 +1,4 @@
 if Config.Report == true then 
-ESX = nil
-
-Citizen.CreateThread(function()
-    while ESX == nil do
-        TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-        Citizen.Wait(100)
-    end
-end)
-
 
 RegisterNetEvent("finalmenuadmin:sendNotifForReport")
 AddEventHandler("finalmenuadmin:sendNotifForReport", function(type, nomdumec, raisondumec)

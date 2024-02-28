@@ -10,7 +10,10 @@ server_scripts {
     "config.lua",
 }
 
-shared_script "config.lua"
+shared_script {
+"config.lua",
+"@es_extended/imports.lua",
+}
 
 client_scripts {
     "src/RMenu.lua",

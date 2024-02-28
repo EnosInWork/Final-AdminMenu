@@ -1,21 +1,3 @@
-ESX = nil
-
-TriggerEvent(Config.ESXTrigger, function(obj) ESX = obj end)
-
-
-RegisterNetEvent('esx:playerLoaded')
-AddEventHandler('esx:playerLoaded', function(xPlayer)
-  ESX.PlayerData = xPlayer
-end)
-RegisterNetEvent('esx:setJob')
-AddEventHandler('esx:setJob', function(job)
-	ESX.PlayerData.job = job
-end)
-RegisterNetEvent('esx:setJob2')
-AddEventHandler('esx:setJob2', function(job2)
-	ESX.PlayerData.job2 = job2
-end)
-
 RegisterNetEvent('Ise_Logs2')
 AddEventHandler('Ise_Logs2', function(Color, Title, Description)
 	TriggerServerEvent('Ise_Logs2', Color, Title, Description)

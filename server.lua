@@ -1,8 +1,6 @@
-ESX = nil
 local allReport = {}
 local items = {}
 
-TriggerEvent(Config.ESXTrigger, function(obj) ESX = obj end)
 
 ESX.RegisterServerCallback('BahFaut:getUsergroup', function(source, cb)
 	local xPlayer = ESX.GetPlayerFromId(source)
